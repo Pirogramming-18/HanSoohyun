@@ -235,9 +235,15 @@ main {
     padding:8px 10px 0;
     width: 1100px;
 }
+#main-first-block {
+    display: inline-block;
+    width: 100%;
+
+}
+
 
 #main-ad {
-    display: inline-block;
+    float: left;
     width: 740px;
     height: 120px;
     background: #555;
@@ -246,12 +252,17 @@ main {
 }
 
 #main-login {
-    display: incline-block;
+    float:left;
     width: 332px;
     height: 120px;
     vertical-align: top;
     background-color: white;
     margin-bottom: 8px;
+}
+
+#main-second-block .inline-block:last-child {
+    width: 332px;
+    vertical-align: top;
 }
 
 #main-ytn {
@@ -263,6 +274,11 @@ main {
     margin-bottom: 8px;
 }
 
+#main-ytn h3, 
+#main-ytn ol {
+    display: inline-block;
+}
+
 #main-newsstand {
     display: incline-block;
     width: 740px;
@@ -270,6 +286,31 @@ main {
     background-color: white;
     margin-right: 8px;
     margin-bottom: 8px;
+}
+
+#main-newsstand h3 {
+    height: 45px;
+}
+
+#main-newsstand ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-newsstand li {
+    float: left;
+    width: 123px;
+    height: 67px;
+    border-right: 1px solid #f1f3f6;
+    border-bottom: 1px solid #f1f3f6;
+    text-align: center;
+}
+
+#main-newsstand li img {
+    position: relative;
+    top : 50%;
+    transform: translateY(-50%);
 }
 
 #main-weahter {
@@ -303,11 +344,18 @@ main {
     background: white;
 }
 
+#main-fourth-block {
+    display: inline-block;
+    width: 100%;
+}
+
 #main-event {
     display: inline-block;
     width: 740px;
     height: 130px;
     background: white;
+    vertical-align: top;
+    margin-right: 8px;
 }
 
 #main-third-ad{
