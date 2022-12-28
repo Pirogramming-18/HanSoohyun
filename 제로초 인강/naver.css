@@ -34,6 +34,25 @@ html, body {
 }
 /* div는 생략가능*/
 
+#header-top {
+    float: right;
+}
+
+#header-top span:first-child{
+    color: #888
+    letter-spacing: -1px;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+#header-search {
+    clear: both;
+}
+
+#header-search a {
+    text-decoration: none;
+}
+
 
 #header-search > h1 {
     width: 432px;
