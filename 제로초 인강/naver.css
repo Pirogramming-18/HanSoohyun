@@ -21,13 +21,10 @@ div#header-center {
 
 
 #header-search > h1 {
-    width: 198px;
-    height: 48px;
+    width: 432px;
+    height: 71px;
     display: inline-block;
-    /*background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png);
-    background-position: -4px - 10px;
-    background-repeat: no-repeat; */
-    background: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png) -4px --10px no-repeat;
+    background: url(./sp_search.png) -16px -342px no-repeat;
 }
 
 #header-search h1 span {
@@ -61,3 +58,22 @@ div#header-center {
     padding: 0 ;
     outline: none;
 }
+
+#header-search fieldset button {
+    width: 49px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    background: #03cf5d;
+    
+}
+
+#search-image {
+    background-image: url(./sp_search.png);
+    background-position: 43px -43px;
+    
+    height: 69px;
+    display: inline-block;
+    width: 41px;
+}
+
