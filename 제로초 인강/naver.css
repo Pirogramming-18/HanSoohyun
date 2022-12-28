@@ -289,6 +289,10 @@ main {
     margin-bottom: 8px;
 }
 
+#main-login .login-wrapper{
+    padding: 15px 25px;
+}
+
 #main-second-block .float-left:last-child {
     width: 740px;
     margin-right: 8px;
