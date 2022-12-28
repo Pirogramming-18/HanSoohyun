@@ -1,0 +1,151 @@
+#cat {
+    position: absolute;
+    left: 100px;
+    width: 60px;
+    height: 60px;
+
+}
+
+#WG {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    width: 1000px;
+    height: 80px;
+}
+
+.search {
+    position: absolute;
+    color:blue;
+    left: 1000px;
+    top: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+::placeholder{
+    color:white
+}
+.button {
+    position: absolute;
+    left: 1130px;
+    top: 19px;
+    width: 1px;
+    height: 1px;
+}
+
+#Si {
+    position: absolute;
+    left: 1175px;
+    top: 20.7px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+#Su {
+    border-radius: 5px;
+    background-color: rgb(64, 63, 67);
+    position: absolute;
+    left: 1240px;
+    top: 20.7px;
+    width: 75px;
+    height: 30px;
+    color: white;
+}
+
+#Bf {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    font-size: 60px;
+}
+
+#Gbb {
+    position: absolute;
+    left: 300px;
+    top: 370px;
+    width: 480px;
+    height: 30px;
+    color:rgb(176, 173, 173);
+    font-size: 20px;
+}
+
+#asdf {
+    position: absolute;
+    left: 830px;
+    top: 80px;
+    width: 400px;
+    height: 480px;
+    background-color:white; 
+    border-radius: 5px;
+}
+#qwer{
+    position: absolute;
+    left: 860px;
+    top: 100px;
+    width: 180px;
+    height: 420px;
+    background-color:white; 
+    
+}
+.asd{
+    width: 340px;
+    height: 35px;
+}
+
+#Ms{
+    position: absolute;
+    left: 860px;
+    top: 350px;
+    width: 380px;
+    height: 420px;
+    font-size: 6px;
+    color:black
+    
+}
+
+#Suf{
+    position: absolute;
+    left: 860px;
+    top: 400px;
+    width: 350px;
+    height: 70px;
+    border-radius: 5px;
+    background-color:limegreen;
+    color:white;
+    border-color: white;
+}
+
+#Bc{
+    position: absolute;
+    left: 860px;
+    top: 490px;
+    width: 370px;
+    height: 420px;
+    font-size: 6px;
+    color:black
+}
+
+
+
+#Mz{
+    position: absolute;
+    left: 0;
+    top: 800px;
+    width: 1519px;
+    height: 115px;
+    background-color: white;
+}
+
+#d{
+    position: absolute;
+    left: 850px;
+    top: 750px;
+    width: 500px;
+    height: 100px;
+    
+}
