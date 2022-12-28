@@ -11,14 +11,23 @@
 
 div#header-center {
     margin: 0 auto; 
-    width: 1350px;  
+    width: 1300px;  
 }
 /* div는 생략가능*/
 
 
 #header-search > h1 {
-    width: 280px;
+    width: 198px;
+    height: 48px;
     display: inline-block;
+    /*background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png);
+    background-position: -4px - 10px;
+    background-repeat: no-repeat; */
+    background: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png) -4px --10px no-repeat;
+}
+
+#header-search h1 span {
+    display: none;
 }
 
 /*
@@ -32,6 +41,14 @@ div#header-center {
 }
 
 #header-search fieldset {
-    width: 520px;
+    margin-left: 20px
+    padding: 12px 0 12px 10px;
+    /* 시계방향(위-오른-아래-왼) */
+
+    width: 521px;
+    height: 49px;
     display: inline-block;
+    border: 2px solid #03cf5d
+
+
 }
