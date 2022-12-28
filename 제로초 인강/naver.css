@@ -229,6 +229,23 @@ nav li:nth-child(6) span:first-child {
     height: 334px;
     border: 1px solid #aaa;
     background: white;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    z-index: 100;
+}
+
+#z-example {
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+
+#search-ranking:hover ul {
+    display: inline-block;
 }
 
 #rank-number {
