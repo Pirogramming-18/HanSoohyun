@@ -1,0 +1,28 @@
+/*# 선택자(selector)*/
+
+div#header-center {
+    margin: 0 auto; 
+    width: 1350px;  
+}
+/* div는 생략가능*/
+
+
+#header-search > h1 {
+    width: 280px;
+    display: inline-block;
+}
+
+/*
+#header-center h1 {
+ 자손 선택자(보통 자손으로 씀)
+}
+*/
+
+#header-search h2 {
+    display: none;
+}
+
+#header-search fieldset {
+    width: 520px;
+    display: inline-block;
+}
