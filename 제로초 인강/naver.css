@@ -417,10 +417,12 @@ main {
 #subject-list, #subject-all, #subject-prev, #subject-next {
     float: left;
     height: 45px;
+    padding: 0;
 }
 
 #subject-list {
     width: 603px;
+    position: relative;
 }
 
 #subject-list ul {
