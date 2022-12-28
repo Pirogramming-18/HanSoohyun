@@ -107,6 +107,9 @@ nav ul {
     list-style: none;
 }
 
+nav li{
+    display: inline-block;
+}
 
 nav li: :first-child span:first-child {
     width: 25px;
@@ -114,10 +117,10 @@ nav li: :first-child span:first-child {
     margin-left: 0;
 }
 
-nav li span:first-child {
+nav li span:first-child:first-child:first-child {
     height: 16px;
     display: inline-block;
-    background-image: url(./sp_search.png);
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2019/sp_nav.png);
     background-repeat: no-repeat;
     padding-left: 14px;
 }
