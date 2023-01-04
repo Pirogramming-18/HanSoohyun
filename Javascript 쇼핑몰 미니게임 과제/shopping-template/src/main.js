@@ -24,6 +24,25 @@ function createHTMLString(item) {
     `;
 }
 
+function onButtonClick(event, items) {
+    const key = dataset.key;
+    const dataset = event.target.dataset;
+    const value = dataset.value;
+    
+    if(key == null || value == null) {
+        return;
+    }
+    updateitems (items, key, value);
+}
+
+
+function setEventlistners(items) {
+    const logo = document.querySelector('.logo');
+    const buttons = document.querySelector('.buttons');
+    logo.addEventListener('click', () => displayItems(items));
+    buttons.addEventListener('click', event => onButtonClick(event, items));
+}
+
 // main
 loadItems()
     .then(items=> {
