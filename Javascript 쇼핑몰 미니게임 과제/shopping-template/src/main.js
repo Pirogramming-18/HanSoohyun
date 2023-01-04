@@ -43,11 +43,3 @@ function setEventlistners(items) {
     buttons.addEventListener('click', event => onButtonClick(event, items));
 }
 
-// main
-loadItems()
-    .then(items=> {
-        console.log(items);
-            //displayItems(items);
-            //setEventlistners(items)
-    })
-    .catch(console.log)
