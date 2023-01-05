@@ -21,7 +21,7 @@ let intervalId;
 //     //let as= document.getElementsByClassName('dj')
 //     //nm.checked=true
 //     appendrecord.innerHTML += "asd"
-// }
+// }s
 
 buttonStart.onclick = function(){
     clearInterval(intervalId)
