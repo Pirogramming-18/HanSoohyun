@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        
+        <script src="https://kit.fontawesome.com/35b3efbb78.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <i class="fa-solid fa-stopwatch"></i>피로그래밍 스톱워치
+            </div>
+        </header>
+        <div class="container">
+            <h1>
+                <span id="seconds">00</span>:<span id="tenMillis">00</span>
+            </h1>
+            <div class="btns">
+                <button type="button" id="startbtn">start</button>
+                <button type="button" id="stopbtn">stop</button>
+                <button type="button" id="resetbtn">reset</button>
+            </div>
+        </div>
+            <div class="records">
+                <div class="record">
+                    <input type="checkbox" id="checkall">
+                    <h2>구간기록</h2>
+                    <button><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div id="qs"> 
+                    
+                </div>
+            </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

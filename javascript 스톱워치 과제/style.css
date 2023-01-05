@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height:6px;
+    text-align:center;
+    margin:40px;
+    border:2px black;
+    font-size: 20px;
+}
+
+.container {
+    
+    display:flex;
+    justify-content: end;
+    flex-direction: column;
+    width:100vw;
+    height:50vh;
+    background-color: aquamarine;
+    border-radius: 30px;
+    align-items: center;
+}
+
+h1 {
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+}
+
+.btns {
+    width:100%;
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    
+    
+    
+}
+
+#startbtn, #stopbtn, #resetbtn{
+    font-size:20px;
+    border:1px black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:antiquewhite;
+    margin:10% 5% ;
+    cursor: pointer;
+}
+
+.records {
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.records {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.record {
+    display:flex;
+    justify-content: space-between;
+    width:40vw;
+    background-color:antiquewhite;
+    border-radius: 20px;
+    margin:2vh;
+}
+
+.record-column {
+    display:flex;
+    justify-content: space-between;
+    width:40vw;
+    background-color:white;
+    margin:0;
+    height:30vh;
+}
