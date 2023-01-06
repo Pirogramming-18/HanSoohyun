@@ -13,3 +13,9 @@ while (True):
     else:
         break
     
+for i in range(a):
+    num += 1
+    R=f'PlayerA : {num}'
+    print(R)
+    
+   
