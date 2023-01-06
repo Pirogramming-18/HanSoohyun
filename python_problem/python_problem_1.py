@@ -1,4 +1,5 @@
 num=0;
+flag=0
 while (True):
     a=input("부를 숫자의 개수를 입력하세요(1, 2, 3만 입력 가능) :")
     try:
@@ -15,6 +16,10 @@ while (True):
     
 for i in range(a):
     num += 1
+    if num==31:
+        print(f"PlayerB win!")
+        flag+=1
+        break
     R=f'PlayerA : {num}'
     print(R)
 
@@ -34,6 +39,10 @@ while (True):
 
 for i in range(a):
     num += 1
+    if num==31:
+        print(f"PlayerA win!")
+        flag+=1
+        break
     R=f'PlayerB : {num}'
     print(R)
     
