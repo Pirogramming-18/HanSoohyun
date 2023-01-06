@@ -1,7 +1,7 @@
 global num
 num=0
 import random
-def brGame(X,Y):
+def nom(X,Y):
         for i in range(a):
             global num
             global flag
@@ -31,12 +31,12 @@ while True:
         else:
             break
     
-    brGame(X="playerA",Y="playerB")
+    nom(X="playerA",Y="computer")
     if flag==1:
         break
         
-    
-    brGame(X="playerB",Y="playerA")
+    a=random.randrange(1,4) 
+    nom(X="computer",Y="playerA")
     if flag==1:
         break
     
