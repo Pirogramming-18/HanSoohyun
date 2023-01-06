@@ -17,7 +17,7 @@ while (True):
 for i in range(a):
     num += 1
     if num==31:
-        
+        print(f"PlayerB win!")
         flag+=1
         break
     R=f'PlayerA : {num}'
@@ -40,7 +40,7 @@ while (True):
 for i in range(a):
     num += 1
     if num==31:
-        
+        print(f"PlayerA win!")
         flag+=1
         break
     R=f'PlayerB : {num}'
