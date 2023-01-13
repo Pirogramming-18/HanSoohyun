@@ -1,0 +1,24 @@
+<div class="btn-group">
+    <a href="{% url 'list' %}" class="btn btn-info">myMoviereviews</a>
+    <a href="{% url 'add' %}" class="btn btn-info">Add a New review</a>
+</div>
+
+<div class="btn-group">
+    <a href="{% url 'list' %}" class="btn btn-info">{{review.title}}</a>
+    <a href="{% url 'add' %}" class="btn btn-info">{{review.year}}</a>
+    <a href="{% url 'add' %}" class="btn btn-info">{{review.genre}}</a>
+    <a href="{% url 'add' %}" class="btn btn-info">{{review.star}}</a>
+</div>
+
+
+
+{% for review in object_list %}
+    <tr>
+        <td>{{forloop.counter}}</td>
+        <td><a href="{% url 'detail' pk=review.id %}">{{review.title}}</a></td>
+        
+        <td>{{review.year}}</td>
+        <td>{{review.genre}}</td>
+        <td>{{review.star}}</td>
+    </tr>
+{% endfor %}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<span> <a href="{% url 'list' %}" class="btn btn-info">myMoviereviews</a>
+    <a href="{% url 'add' %}" class="btn btn-info">Add a New review</a></span>
+
+<h2>개봉년도 {{object.title}}</h2>
+<span><a href="{% url 'update' pk=review.id %}">수정</a></span>
+<span><a href="{% url 'delete' pk=review.id %}">삭제</a></span>
+<h2>감독 {{object.director}}</h2>
+<h2>주연 {{object.actor}}</h2>
+<h2>장르 {{object.genre}}</h2>
+<h2>별점 {{object.star}}</h2>
+<h2>러닝타임 {{object.runningtime}}</h2>
+<h2>{{object.reviewtext}}</h2>
+</body>
+</html> 
